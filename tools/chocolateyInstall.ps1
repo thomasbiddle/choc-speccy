@@ -2,6 +2,6 @@
 $packageName = 'speccy'
 $fileType = 'exe'
 $silentArgs = "/S"
-$url = 'http://download.piriform.com/spsetup121.exe'
+$url = 'https://www.piriform.com/speccy/download/slim/downloadfile'
 
 Install-ChocolateyPackage $packageName $fileType $silentArgs $url
