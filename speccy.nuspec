@@ -1,9 +1,9 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>speccy</id>
     <title>Speccy</title>
-    <version>1.21.491.2</version>
+    <version>1.22.536</version>
     <authors>Piriform LTD</authors>
     <owners>Thomas (TJ) Biddle</owners>
     <summary>Speccy will give you detailed statistics on every piece of hardware in your computer.</summary>
@@ -13,14 +13,14 @@
 * Amount of memory (RAM)
 * Graphics card
 * Operating system
-
-NOTE: This package will automatically download the latest version from Piriform, regarless of the version number specified in this package. 
-
-    </description>
+NOTE: This package will install Speccy without bundled adware. To achieve this, a key to opt-out the adware gets added to the registry.</description>
     <projectUrl>http://www.piriform.com/speccy</projectUrl>
     <tags>piriform ccleaner speccy</tags>
     <copyright>Piriform LTD</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>http://static.piriform.com/pf/icon/sp_64.png</iconUrl>
+    <iconUrl>https://upload.wikimedia.org/wikipedia/en/8/81/Speccy_logo.png</iconUrl>
   </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
 </package>
